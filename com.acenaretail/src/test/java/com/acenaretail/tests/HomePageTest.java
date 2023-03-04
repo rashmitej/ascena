@@ -15,7 +15,6 @@ public class HomePageTest extends BaseTest{
 	@Test(priority = 2)
 	public void homePageMyaccountclick() throws InterruptedException {
 		homepage.clickMyAccountlink();
-		System.out.println("clicked on my account");
 		
 	}
 
